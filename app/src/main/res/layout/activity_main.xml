@@ -660,7 +660,7 @@
         <ImageView
             android:id="@+id/imageButton3"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="@color/crunch"
             app:srcCompat="@drawable/home" />
@@ -668,7 +668,7 @@
         <ImageView
             android:id="@+id/imageButton4"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="@color/crunch"
             app:srcCompat="@drawable/listas" />
@@ -676,7 +676,7 @@
         <ImageView
             android:id="@+id/imageButton5"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="@color/crunch"
             app:srcCompat="@drawable/explorar" />
@@ -684,7 +684,7 @@
         <ImageView
             android:id="@+id/imageButton6"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="@color/crunch"
             app:srcCompat="@drawable/multicast" />
@@ -692,7 +692,7 @@
         <ImageView
             android:id="@+id/imageButton7"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
             android:backgroundTint="@color/crunch"
             app:srcCompat="@drawable/preferencias" />
