@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:context=".ExplorarActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -243,7 +244,7 @@
             app:layout_constraintStart_toStartOf="parent">
 
             <ImageView
-                android:id="@+id/imageButton3"
+                android:id="@+id/inicio"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -251,7 +252,7 @@
                 app:srcCompat="@drawable/home" />
 
             <ImageView
-                android:id="@+id/imageButton4"
+                android:id="@+id/listas"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -259,7 +260,7 @@
                 app:srcCompat="@drawable/listas" />
 
             <ImageView
-                android:id="@+id/imageButton5"
+                android:id="@+id/explorar"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -267,7 +268,7 @@
                 app:srcCompat="@drawable/explorar" />
 
             <ImageView
-                android:id="@+id/imageButton6"
+                android:id="@+id/multicast"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -275,7 +276,7 @@
                 app:srcCompat="@drawable/multicast" />
 
             <ImageView
-                android:id="@+id/imageButton7"
+                android:id="@+id/preferencias"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
